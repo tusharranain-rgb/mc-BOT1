@@ -123,3 +123,35 @@ muteBtn.addEventListener("click", () => {
 
     box-shadow: 0 0 30px rgba(88,101,242,.25);
 }
+
+.console-output {
+    background: #1a1a1a;
+}
+
+.console-output {
+    background: rgba(0,0,0,.45);
+
+    backdrop-filter: blur(15px);
+
+    border: 1px solid rgba(88,101,242,.25);
+
+    box-shadow: inset 0 0 30px rgba(88,101,242,.15);
+}
+
+.btn {
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+
+    box-shadow: 0 0 20px #5865f2;
+}
+
+.topbar {
+    background: rgba(20,20,30,.75);
+
+    backdrop-filter: blur(20px);
+
+    box-shadow: 0 0 20px rgba(88,101,242,.3);
+}
