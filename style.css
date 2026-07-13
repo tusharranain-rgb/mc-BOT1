@@ -97,3 +97,20 @@
 #volumeSlider {
     width: 120px;
 }
+
+
+const video = document.getElementById("bg-video");
+const slider = document.getElementById("volumeSlider");
+const muteBtn = document.getElementById("mute-btn");
+
+video.volume = 0.5;
+
+slider.addEventListener("input", () => {
+    video.volume = slider.value / 100;
+});
+
+muteBtn.addEventListener("click", () => {
+    video.muted = !video.muted;
+
+    muteBtn.textContent = video.muted ? "🔇" : "🔊";
+});
