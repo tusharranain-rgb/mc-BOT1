@@ -114,3 +114,12 @@ muteBtn.addEventListener("click", () => {
 
     muteBtn.textContent = video.muted ? "🔇" : "🔊";
 });
+
+
+.sidebar {
+    background: rgba(20, 20, 35, 0.75);
+    backdrop-filter: blur(20px);
+    border-right: 1px solid rgba(255,255,255,0.08);
+
+    box-shadow: 0 0 30px rgba(88,101,242,.25);
+}
